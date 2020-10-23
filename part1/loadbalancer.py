@@ -4,4 +4,4 @@ loadbalancer = Flask(__name__)
 
 @loadbalancer.route('/')
 def router():
-    return "hello"
+    return "hello word"
